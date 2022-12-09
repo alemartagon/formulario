@@ -1,0 +1,122 @@
+body {
+    font-size: 16px;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin:0;
+    min-height: 100vh;
+    background-color: #f90025;
+    background-image: url("https://www.casinocondeluna.es/wp-content/uploads/2019/02/fichas-fondo-rojo.jpg");
+    background-size: cover;
+    margin: 50px auto 0;
+    background-repeat: round;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+form {
+    width: 300px;
+    background: #fff;
+    padding: 0px 40px ;
+    border: 1px solid #ccc;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.row {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #930317;
+    border-color: #930317;
+    box-shadow: 0 3px 0 #690110;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #690110;
+}
+
+/*MODO OSCURO*/
+/*BOTON*/
+.container-btn-mode{
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+  }
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .active{
+    background-color:black;
+    color:#ffcd5c !important;
+  }
+
+/*ACCIÓN MODO OSCURO*/
+  .dark-mode{
+    background-color: #0e0e0e;
+    transition:background-color .6s;
+  }
+  .dark-mode .card{
+    background-color: #1A1C1E;
+  }
+  .dark-mode h1, .dark-mode h2,.dark-mode label, .dark-mode .btn-contact{
+    color:white;
+  }
+  .dark-mode .btn-mode{
+    background-color:#1A1C1E;
+    border:1px solid white;
+    color:white;
+  }
